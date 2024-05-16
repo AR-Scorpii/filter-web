@@ -49789,9 +49789,11 @@ break
 case 4:B.b.C(b9,A.a([A.bs(a8),A.bn(a7),A.bs(a9),A.bn(b0+A.bK(e.d.geW()))],b8))
 break
 case 5:B.b.C(b9,A.a([A.bs(a8),A.bn(a7),A.bs(a9),A.bn(b0+A.bK(e.d.geW()))],b8))
-break}switch(e.d.c.a){case 0:case 1:case 2:case 3:B.b.C(b9,A.a([A.bs("So that"),A.bn("\\mathit{\\Omega} = "+A.bK(1)),A.bs("and"),A.bn("\\mathit{\\Omega}_\\mathrm{S} = "+A.bK(e.d.gij()))],b8))
+break}switch(e.d.c.a){case 0:case 1:case 2:case 3:B.b.C(b9,A.a([A.bs("So that"),A.bn("\\mathit{\\Omega} = "+A.bK(1))],b8))
 break
-case 4:case 5:default:}b7.push([A.R6(2,"Normalization"),b9])
+case 4:case 5:break}switch(e.d.a.a){case 0:B.b.C(b9,A.a([A.bs("and"),A.bn("\\mathit{\\Omega}_\\mathrm{S} = "+A.bK(e.d.gij()))],b8))
+break
+case 1:break}b7.push([A.R6(2,"Normalization"),b9])
 c0=e.d
 if(c0.a===B.ca){b9=A.a([A.bs("As it is a "+c0.d.c+" filter, we have the insertion loss equation")],b8)
 c0=e.d.d
